@@ -20,7 +20,7 @@ struct ContentView: View {
                 .frame(width: 80, height: 40, alignment: .center)
             Text("\(value.formatted(.dateTime.hour().minute()))")
             Divider()
-            TimeEditPicker(selectedHour: $hour, selectedMinute: $minute)
+            CustomPickerView(selectedHour: $hour, selectedMinute: $minute)
         }
     }
 }

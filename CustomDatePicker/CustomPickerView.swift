@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct TimeEditPicker: View {
+struct CustomPickerView: View {
     @Binding var selectedHour: Int
     @Binding var selectedMinute: Int
 
